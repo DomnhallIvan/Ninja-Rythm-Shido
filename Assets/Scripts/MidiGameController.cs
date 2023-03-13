@@ -8,7 +8,7 @@ public class MidiGameController : MonoBehaviour
     public GameObject[] lanes;
     public GameObject notePrefab;
 
-    private float noteSpeed = 5.0f;
+    private float noteSpeed = 2.5f;
     private float noteSpawnTimer = 0.0f;
     private float noteSpawnDelay = 1.0f;
 
@@ -29,9 +29,6 @@ public class MidiGameController : MonoBehaviour
             // Calcula la lane en la que debe aparecer la nota
             int laneIndex = note.NoteNumber % lanes.Length;
 
-            // Crea una nueva nota GameObject y la posiciona en la lane y en el tiempo correctos
-            GameObject newNote = Instantiate(notePrefab, lanes[laneIndex].transform.position + Vector3.up * (float)noteTime * noteSpeed, Quaternion.identity);
-            newNote.transform.parent = transform;
         }
     }
 
@@ -50,7 +47,7 @@ public class MidiGameController : MonoBehaviour
         // Mueve todas las notas hacia abajo
         foreach (Transform note in transform)
         {
-            note.position -= Vector3.up * noteSpeed * Time.deltaTime;
+            note.position -= Vector3.forward * noteSpeed * Time.deltaTime;
         }
     }
 

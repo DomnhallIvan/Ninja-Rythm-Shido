@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 3745033422649921031}
   - component: {fileID: 3745033422649921144}
   - component: {fileID: 3745033422649921145}
-  - component: {fileID: 3745033422649921029}
+  - component: {fileID: 967084223853734451}
   m_Layer: 0
   m_Name: Note
-  m_TagString: Untagged
+  m_TagString: Notes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3745033422649921029
+--- !u!114 &967084223853734451
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,7 +107,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3745033422649921146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb9380f6fb9645241a4c3941bca50cc7, type: 3}
+  m_Script: {fileID: 11500000, guid: c01e362e4cc40eb4a8b559e05c0985b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _noteSpeed: 1
