@@ -8,6 +8,7 @@ public class Notes : MonoBehaviour
     {
         if(other.CompareTag("Notes"))
         {
+            Debug.Log("Colisione");
             Destroy(other.gameObject);
         }
     }
