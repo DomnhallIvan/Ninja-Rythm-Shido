@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: d6ccf705882f75846baee83e34f22dc9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2363
+        width: 101
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd164d20f7ea2843bd2855f0c97ac0a
+      internalID: -1134961509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2353
+        width: 106
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8daa241ca60d4945929daa688b72d44
+      internalID: 815325481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2367
+        width: 96
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77f703a29fc90441814d3e7bca1548a
+      internalID: 1964210534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2261
+        width: 413
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa5f95efe9a5b641aac3238f901e43c
+      internalID: 445799158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1975
+        width: 401
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f25450889112349bda09855c4da35b
+      internalID: -219130244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2159
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88142d7c8f92600409403a9a1a8a7b86
+      internalID: -192141855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1973
+        width: 21
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d0b66da80ebc844bf34172682386b9
+      internalID: 2046763974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1975
+        width: 95
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e155914c656b60044bdc4b04d076b797
+      internalID: 926404313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_8
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1974
+        width: 125
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f3f3b599a525748b9558582b868011
+      internalID: 94932919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1503
+        width: 139
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56fc50b356be0e4ca01a7e2ffc27f73
+      internalID: 1862866825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_10
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1684
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fd7816958662c48956fba59486b232
+      internalID: -1558099320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_11
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1493
+        width: 106
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a972e471261425479747a4653e27159
+      internalID: -1361670576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_12
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1592
+        width: 23
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ac5e4637f60d44da8f61946db64c93
+      internalID: 1501709195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1499
+        width: 250
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db17dde0762a4041a150ef03c966953
+      internalID: 314718536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1426
+        width: 1140
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fc568d62282fa438ca324bf034c1d3
+      internalID: -465202692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_15
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1494
+        width: 92
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a7b3b8dd2d6640a52709a4bd33423
+      internalID: 952865922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_16
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1426
+        width: 122
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74663a80d06658248b6dfd40a7a6ff1a
+      internalID: 904884500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_17
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1501
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dc13e2626ee6d4a87ac6fc6aee161b
+      internalID: 1431941214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_18
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1055
+        width: 133
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58603a50f77e64841b7605094a054c76
+      internalID: 1596314255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_19
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1238
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4de1b2c09e375d438e842622ddc0a01
+      internalID: -1494524031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1257
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f87177d43d0d6409c2a5e72e91c762
+      internalID: -1235699825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_21
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1060
+        width: 27
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665ffa21b9b13fe48a78fe4a2ffdb448
+      internalID: -1554458057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1051
+        width: 20
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297007814d799424f877cfa7e375e309
+      internalID: -2043697749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_23
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1055
+        width: 117
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1bafca5ec4e83469185fc4d0f5bbd1
+      internalID: 1902752938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 963
+        width: 885
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5505886ae3e7845a377474697546e3
+      internalID: -443818670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_25
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1055
+        width: 93
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb81c67f3a49a82409c4183df9dd383c
+      internalID: 57999763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1049
+        width: 92
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dbb7b891a09ad42a5dc076b35d8bdb
+      internalID: 490866941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_27
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1058
+        width: 96
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97298508df9ea5f47ad703ae47e82dfa
+      internalID: 448860327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_28
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1055
+        width: 97
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb2e374d1b018c479c89cc13db0131f
+      internalID: 460928046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 593
+        width: 132
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17fd16e0a6300c4a90057dc9331f1ac
+      internalID: -372823792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 776
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae2faea9ad917841896f3c197a4ac8e
+      internalID: -168804835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_31
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 795
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd771ac341f78c4a821a92fdb1b35d0
+      internalID: -1595407325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_32
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 776
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771d8988393838b458096ed7f8f237a4
+      internalID: 475509654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_33
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 585
+        width: 106
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06951563efff4a042a91d7e39c51dad5
+      internalID: -277992163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 590
+        width: 20
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565934c6fe4e8b34cbad4a28f9aac82b
+      internalID: 420173661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 593
+        width: 117
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63f31478918a6a46a31764c7ea3af7d
+      internalID: 558970851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 501
+        width: 173
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd7d4d92b2532d4c9072ed092f6f98d
+      internalID: -2101801822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_37
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 593
+        width: 93
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920f97a8a8c136149a748f81883201d6
+      internalID: 1183237114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_38
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 491
+        width: 747
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419b03a6e401bfa448a37478106b4735
+      internalID: -492896625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_39
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 113
+        width: 133
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ef82190f3b91540ba7595271d3a416
+      internalID: -773690850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_40
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 297
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5f0e059e2adbc4a877921df6555937
+      internalID: -127131519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_41
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 316
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccf6770e2300af42806c96b4db298c9
+      internalID: -1244713199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_42
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 118
+        width: 27
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18893a16e1164c4bb93976353da6d21
+      internalID: 702221047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_43
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 111
+        width: 20
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00ee23f7d88ef14f9fee9324597aae7
+      internalID: 634883780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_44
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 113
+        width: 117
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1916f2b376d05c848ae7e26f2c2be27d
+      internalID: 842689232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_45
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 22
+        width: 174
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0089d8356c8747c43bfaeb0ac5128079
+      internalID: -63180731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_46
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 40
+        width: 124
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d152b674673114a9a9d04d9b7c8ede
+      internalID: -1940039929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_47
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 113
+        width: 67
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e64c9b0c763254fa90fcc16797b355
+      internalID: -2006206583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_48
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 113
+        width: 94
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce61c47066a657b4592b34a3ee63b262
+      internalID: 1847883253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_49
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 117
+        width: 96
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f69f673a0392ee43b9172e51751139c
+      internalID: -323840602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_50
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 12
+        width: 1332
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e9f29842dc4e44e850e2d387f24340
+      internalID: 1769266324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_51
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 40
+        width: 122
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a51e7507e62de45a26f1d50421b629
+      internalID: -2017062933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice Sheet Blanco_52
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 107
+        width: 215
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c3b63354b2f3a4a8d725c18845e4c0
+      internalID: -1125814501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Nice Sheet Blanco_32: 475509654
+      Nice Sheet Blanco_47: -2006206583
+      Nice Sheet Blanco_6: 2046763974
+      Nice Sheet Blanco_44: 842689232
+      Nice Sheet Blanco_51: -2017062933
+      Nice Sheet Blanco_45: -63180731
+      Nice Sheet Blanco_21: -1554458057
+      Nice Sheet Blanco_25: 57999763
+      Nice Sheet Blanco_49: -323840602
+      Nice Sheet Blanco_50: 1769266324
+      Nice Sheet Blanco_39: -773690850
+      Nice Sheet Blanco_2: 1964210534
+      Nice Sheet Blanco_42: 702221047
+      Nice Sheet Blanco_30: -168804835
+      Nice Sheet Blanco_48: 1847883253
+      Nice Sheet Blanco_7: 926404313
+      Nice Sheet Blanco_1: 815325481
+      Nice Sheet Blanco_4: -219130244
+      Nice Sheet Blanco_29: -372823792
+      Nice Sheet Blanco_26: 490866941
+      Nice Sheet Blanco_40: -127131519
+      Nice Sheet Blanco_9: 1862866825
+      Nice Sheet Blanco_36: -2101801822
+      Nice Sheet Blanco_37: 1183237114
+      Nice Sheet Blanco_46: -1940039929
+      Nice Sheet Blanco_11: -1361670576
+      Nice Sheet Blanco_27: 448860327
+      Nice Sheet Blanco_41: -1244713199
+      Nice Sheet Blanco_28: 460928046
+      Nice Sheet Blanco_8: 94932919
+      Nice Sheet Blanco_16: 904884500
+      Nice Sheet Blanco_13: 314718536
+      Nice Sheet Blanco_0: -1134961509
+      Nice Sheet Blanco_23: 1902752938
+      Nice Sheet Blanco_52: -1125814501
+      Nice Sheet Blanco_31: -1595407325
+      Nice Sheet Blanco_18: 1596314255
+      Nice Sheet Blanco_20: -1235699825
+      Nice Sheet Blanco_5: -192141855
+      Nice Sheet Blanco_24: -443818670
+      Nice Sheet Blanco_12: 1501709195
+      Nice Sheet Blanco_19: -1494524031
+      Nice Sheet Blanco_43: 634883780
+      Nice Sheet Blanco_3: 445799158
+      Nice Sheet Blanco_33: -277992163
+      Nice Sheet Blanco_22: -2043697749
+      Nice Sheet Blanco_34: 420173661
+      Nice Sheet Blanco_17: 1431941214
+      Nice Sheet Blanco_15: 952865922
+      Nice Sheet Blanco_10: -1558099320
+      Nice Sheet Blanco_14: -465202692
+      Nice Sheet Blanco_35: 558970851
+      Nice Sheet Blanco_38: -492896625
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
