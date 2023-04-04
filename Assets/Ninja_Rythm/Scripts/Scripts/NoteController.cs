@@ -19,7 +19,7 @@ public class NoteController : MonoBehaviour
         if (other.CompareTag("PlayerEX"))
         {
             Efectos.DeluxyCombo(1);
-            Debug.Log("Entre en colison Excelente");
+            Efectos.NoteStatus.text = "Excelent";
             noteScoreManager.ChangeExScore(100);
             Destroy(gameObject);
            // gameController.Score();
@@ -27,15 +27,15 @@ public class NoteController : MonoBehaviour
         else if (other.CompareTag("PlayerG"))
         {
             Efectos.DeluxyCombo(1);
-            Debug.Log("Entre en colison good");
             noteScoreManager.ChangeExScore(75);
+            Efectos.NoteStatus.text = "Good";
             Destroy(gameObject);
             // gameController.Score();
         }
         else if (other.CompareTag("PlayerMeh"))
         {
             Efectos.DeluxyCombo(1);
-            Debug.Log("Entre en colison meh");
+            Efectos.NoteStatus.text = "Meh";
             noteScoreManager.ChangeExScore(50);
             Destroy(gameObject);
             // gameController.Score();
@@ -43,7 +43,7 @@ public class NoteController : MonoBehaviour
         else if (other.CompareTag("PlayerBd"))
         {
             Efectos.DeluxyCombo(1);
-            Debug.Log("Entre en colison  bad");
+            Efectos.NoteStatus.text = "Bruh";
             noteScoreManager.ChangeExScore(25);
             Destroy(gameObject);
             // gameController.Score();

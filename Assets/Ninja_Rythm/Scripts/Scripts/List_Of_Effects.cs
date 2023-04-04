@@ -7,6 +7,7 @@ public class List_Of_Effects : MonoBehaviour
 {
     
     public Text ScoreText;
+    public Text NoteStatus;
     public int PlayerComboScore;
 
     public Image CoboImage;
@@ -49,10 +50,7 @@ public class List_Of_Effects : MonoBehaviour
         {
             CoboImage.sprite = ComboStoneImage[1];
         }
-        else if(PlayerComboScore>=0)
-        {
-            CoboImage.sprite = ComboStoneImage[0];
-        }
+        
     }
 
    /* public void WomboCombo(int Combo)
@@ -102,10 +100,9 @@ public class List_Of_Effects : MonoBehaviour
     {
         PlayerComboScore = 0;
         ScoreText.text = ("X " + PlayerComboScore);
-        if (PlayerComboScore >= 0)
-        {
-            CoboImage.sprite = ComboStoneImage[0];
-        }
+        
+            CoboImage.sprite = ComboStoneImage[7];
+        
 
     }
 
