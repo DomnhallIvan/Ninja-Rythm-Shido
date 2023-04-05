@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3745033422649921144}
   - component: {fileID: 3745033422649921145}
   - component: {fileID: -3648112443916879977}
+  - component: {fileID: -7543239663882007945}
   m_Layer: 0
   m_Name: Note 1
   m_TagString: Notes
@@ -111,3 +112,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assignedTime: 0
+--- !u!114 &-7543239663882007945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3745033422649921146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01e362e4cc40eb4a8b559e05c0985b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteScoreManager: {fileID: 0}
+  Efectos: {fileID: 0}

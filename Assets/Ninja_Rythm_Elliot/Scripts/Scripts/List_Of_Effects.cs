@@ -101,7 +101,7 @@ public class List_Of_Effects : MonoBehaviour
         PlayerComboScore = 0;
         ScoreText.text = ("X " + PlayerComboScore);
         
-            CoboImage.sprite = ComboStoneImage[7];
+            CoboImage.sprite = ComboStoneImage[0];
         
 
     }

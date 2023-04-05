@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3745033422649921031}
   - component: {fileID: 3745033422649921144}
   - component: {fileID: 3745033422649921145}
+  - component: {fileID: -2043826388278750152}
   - component: {fileID: 6536774027181713302}
   m_Layer: 0
   m_Name: Note 3
@@ -98,6 +99,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2043826388278750152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3745033422649921146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01e362e4cc40eb4a8b559e05c0985b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteScoreManager: {fileID: 0}
+  Efectos: {fileID: 0}
 --- !u!114 &6536774027181713302
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Notes
+  - PlayerMeh
+  - PlayerEX
+  - PlayerG
+  - PlayerBd
   layers:
   - Default
   - TransparentFX
