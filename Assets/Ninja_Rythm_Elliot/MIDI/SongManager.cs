@@ -4,7 +4,6 @@ using UnityEngine;
 using Melanchall.DryWetMidi.Core;
 using Melanchall.DryWetMidi.Interaction;
 using System.IO;
-using UnityEngine.Networking;
 using System;
 
 public class SongManager : MonoBehaviour
@@ -17,8 +16,6 @@ public class SongManager : MonoBehaviour
 
     public int inputDelayInMilliseconds;
 
-
-    public string fileLocation;
     public float noteTime;
     public float noteSpawnY;
     public float noteTapY;
@@ -31,47 +28,52 @@ public class SongManager : MonoBehaviour
     }
 
     public static MidiFile midiFile;
+    public string midiFileName;
+
     // Start is called before the first frame update
+
+
+
     void Start()
     {
         Instance = this;
-        if (Application.streamingAssetsPath.StartsWith("http://") || Application.streamingAssetsPath.StartsWith("https://"))
-        {
-            StartCoroutine(ReadFromWebsite());
-        }
-        else
-        {
-            ReadFromFile();
-        }
+
+        string filePath = Application.streamingAssetsPath + "/" + midiFileName + ".mid";
+        StartCoroutine(LoadMidiFile(filePath));
+
+        string path = "";
+
+        #if UNITY_ANDROID && !UNITY_EDITOR
+        AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+        AndroidJavaObject currentActivity = jc.GetStatic<AndroidJavaObject>("currentActivity");
+        AndroidJavaObject assetManager = currentActivity.Call<AndroidJavaObject>("getAssets");
+        path = Application.streamingAssetsPath.Replace(Application.dataPath, "") + "file:///android_asset/";
+        #else
+        path = Application.streamingAssetsPath + "/";
+        #endif
+
+
     }
 
-    private IEnumerator ReadFromWebsite()
+    private IEnumerator LoadMidiFile(string filePath)
     {
-        using (UnityWebRequest www = UnityWebRequest.Get(Application.streamingAssetsPath + "/" + fileLocation))
-        {
-            yield return www.SendWebRequest();
+        WWW www = new WWW(filePath);
+        yield return www;
 
-            if (www.isNetworkError || www.isHttpError)
-            {
-                Debug.LogError(www.error);
-            }
-            else
-            {
-                byte[] results = www.downloadHandler.data;
-                using (var stream = new MemoryStream(results))
-                {
-                    midiFile = MidiFile.Read(stream);
-                    GetDataFromMidi();
-                }
-            }
+        if (!string.IsNullOrEmpty(www.error))
+        {
+            Debug.LogError("Error loading MIDI file: " + www.error);
+            yield break;
+        }
+
+        byte[] results = www.bytes;
+        using (var stream = new MemoryStream(results))
+        {
+            midiFile = MidiFile.Read(stream);
+            GetDataFromMidi();
         }
     }
 
-    private void ReadFromFile()
-    {
-        midiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + fileLocation);
-        GetDataFromMidi();
-    }
     public void GetDataFromMidi()
     {
         var notes = midiFile.GetNotes();
@@ -82,14 +84,18 @@ public class SongManager : MonoBehaviour
 
         Invoke(nameof(StartSong), songDelayInSeconds);
     }
+
     public void StartSong()
     {
         audioSource.Play();
     }
+
     public static double GetAudioSourceTime()
     {
         return (double)Instance.audioSource.timeSamples / Instance.audioSource.clip.frequency;
     }
+
+
 
     void Update()
     {
