@@ -21,6 +21,7 @@ public class NoteController : MonoBehaviour
             Efectos.DeluxyCombo(1);
             Efectos.NoteStatus.text = "Excelent";
             noteScoreManager.ChangeExScore(100);
+            
             Destroy(gameObject);
            // gameController.Score();
         }
