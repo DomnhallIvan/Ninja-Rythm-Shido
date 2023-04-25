@@ -15,6 +15,7 @@ public class Notes : MonoBehaviour
         if(other.CompareTag("Notes"))
         {
             Destroy(other.gameObject);
+            Efectos.Effects[3].Play();
             Efectos.Bruh();
         }
     }

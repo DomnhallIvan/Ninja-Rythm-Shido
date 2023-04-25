@@ -13,7 +13,7 @@ public class List_Of_Effects : MonoBehaviour
     public Image CoboImage;
     public Sprite[] ComboStoneImage;
 
-    public GameObject[] Effects;
+    public ParticleSystem[] Effects;
 
 
     private void Start()
