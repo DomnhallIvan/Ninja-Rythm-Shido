@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class HealthController : MonoBehaviour
 {
     public int playerHealth = 3;
+    public GameObject canvasLose;
+    public GameObject canvasScore;
     [SerializeField] private Image[] hearts;
     // Start is called before the first frame update
     void Start()
@@ -30,5 +32,22 @@ public class HealthController : MonoBehaviour
                 hearts[i].color= Color.black;
             }
         }
+    }
+
+    public void GameOver()
+    {
+        if(playerHealth == 0)
+        {
+            Time.timeScale = 0;
+            canvasLose.SetActive(true);
+            canvasScore.SetActive(false);
+        }
+    }
+
+    public void Continue()
+    {
+        Time.timeScale = 1;
+        canvasLose.SetActive(false);
+        canvasScore.SetActive(true);
     }
 }
