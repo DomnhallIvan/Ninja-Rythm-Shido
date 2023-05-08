@@ -5,10 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Ninja_Rythm_Elliot/Scenes/MENU.unity
-    guid: 80b5cc57bbcdc3444a27fe80b840309f
-  - enabled: 1
-    path: Assets/Ninja_Rythm_Elliot/Scenes/Elliot NotesGeneration.unity
+    path: Assets/Ninja_Rythm_Elliot/Scenes/Level1.unity
     guid: e2f2b064f4e64c242ab7fd823289bbd9
+  - enabled: 1
+    path: Assets/Ninja_Rythm_Elliot/Scenes/Menu.unity
+    guid: c01ad95cf58c09649af6edcdc4b37aaf
+  - enabled: 1
+    path: Assets/Ninja_Rythm_Elliot/Scenes/Menu Play.unity
+    guid: 2ee77f147f706fc40ac3273feb89b127
   m_configObjects: {}
