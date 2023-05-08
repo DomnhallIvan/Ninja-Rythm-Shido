@@ -20,6 +20,7 @@ public class List_Of_Effects : MonoBehaviour
     {
         PlayerComboScore = 0;
         CoboImage.sprite = ComboStoneImage[0];
+        
     }
 
     public void DeluxyCombo(int Combo)
