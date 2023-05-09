@@ -8,6 +8,7 @@ public class abrirnivel : MonoBehaviour
     public void CargarNivel(string Nombreniv)
     {
         SceneManager.LoadScene(Nombreniv);
+        
     }
 
 

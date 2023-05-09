@@ -12,7 +12,7 @@ public class Slide : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             transform.position = Vector3.Lerp(transform.position, new Vector3
-                (ray.direction.x * 5f, transform.position.y, transform.position.z), speed * Time.deltaTime);
+                (ray.direction.x * 15f, transform.position.y, transform.position.z), speed * Time.deltaTime);
         }
     }
 }
