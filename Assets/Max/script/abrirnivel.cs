@@ -10,5 +10,4 @@ public class abrirnivel : MonoBehaviour
         SceneManager.LoadScene(Nombreniv);
     }
 
-
 }
