@@ -8,7 +8,11 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-0:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 00010507010c5c580b5b5421407a09444f161e7c292c25342e7d1f60b5e1353e
+=======
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+>>>>>>> parent of ddf051c... juego test
 =======
       value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
 >>>>>>> parent of ddf051c... juego test
@@ -33,6 +37,7 @@ EditorUserSettings:
 >>>>>>> Stashed changes
       flags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     UnityRemoteDevice:
       value: 225f4d46245b0d4902070862342649191512
 =======
@@ -47,6 +52,10 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-3:
       value: 0603525407055f0f0b5a097444200d4444161a7d2a2c7e627e7b456ae0e23061
 >>>>>>> Elliot
+=======
+    RecentlyUsedSceneGuid-4:
+      value: 0603525407055f0f0b5a097444200d4444161a7d2a2c7e627e7b456ae0e23061
+>>>>>>> parent of ddf051c... juego test
 =======
     RecentlyUsedSceneGuid-4:
       value: 0603525407055f0f0b5a097444200d4444161a7d2a2c7e627e7b456ae0e23061

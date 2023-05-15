@@ -20,12 +20,16 @@ MonoBehaviour:
     height: 715
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_Title: Console
 =======
   m_Title: Game
 >>>>>>> Stashed changes
+=======
+  m_Title: Game
+>>>>>>> parent of ddf051c... juego test
 =======
   m_Title: Game
 >>>>>>> parent of ddf051c... juego test
@@ -162,12 +166,16 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   controlID: 53
 =======
   controlID: 107
 >>>>>>> Stashed changes
+=======
+  controlID: 4349
+>>>>>>> parent of ddf051c... juego test
 =======
   controlID: 4349
 >>>>>>> parent of ddf051c... juego test
@@ -240,7 +248,11 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 86
+=======
+  controlID: 1013
+>>>>>>> parent of ddf051c... juego test
 =======
   controlID: 1013
 >>>>>>> parent of ddf051c... juego test
@@ -277,7 +289,11 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 87
+=======
+  controlID: 1014
+>>>>>>> parent of ddf051c... juego test
 =======
   controlID: 1014
 >>>>>>> parent of ddf051c... juego test
@@ -375,6 +391,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_Name: ConsoleWindow
@@ -384,6 +401,9 @@ MonoBehaviour:
 =======
   m_Name: ProjectBrowser
 >>>>>>> Stashed changes
+=======
+  m_Name: ProjectBrowser
+>>>>>>> parent of ddf051c... juego test
 =======
   m_Name: ProjectBrowser
 >>>>>>> parent of ddf051c... juego test
@@ -613,6 +633,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
+<<<<<<< HEAD
       snapOffset: {x: 0, y: 197}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -626,6 +647,10 @@ MonoBehaviour:
       displayed: 1
       snapOffset: {x: -142.9, y: 86}
       snapOffsetDelta: {x: 0, y: 0}
+=======
+      snapOffset: {x: -142.9, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+>>>>>>> parent of ddf051c... juego test
       snapCorner: 1
       id: Orientation
       index: 0
@@ -784,6 +809,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     m_Target: {x: -0.010349929, y: 0.384, z: 3.0126998}
@@ -799,6 +825,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.038621902, y: 0.83155334, z: -1.3307348}
 >>>>>>> Stashed changes
+=======
+    m_Target: {x: 255.27826, y: 317.46, z: -0.4600525}
+    speed: 2
+    m_Value: {x: 255.27826, y: 317.46, z: -0.4600525}
+>>>>>>> parent of ddf051c... juego test
 =======
     m_Target: {x: 255.27826, y: 317.46, z: -0.4600525}
     speed: 2
@@ -856,6 +887,7 @@ MonoBehaviour:
     m_Value: {x: -0.11838136, y: 0.049723282, z: -0.0059355884, w: -0.9917047}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Target: 10
     speed: 2
@@ -874,6 +906,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 1.7722441
 >>>>>>> Stashed changes
+=======
+    m_Target: 261.62793
+    speed: 2
+    m_Value: 261.62793
+>>>>>>> parent of ddf051c... juego test
 =======
     m_Target: 261.62793
     speed: 2
@@ -936,9 +973,15 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 726e0000
       m_LastClickedID: 0
       m_ExpandedIDs: 28b9fffff0defffff6eaffff48ebffffd4edffffe0edffffeeedffffeef9ffff06fbfffffa5a0000f06c0000186d0000
+=======
+      m_SelectedIDs: b47c0000
+      m_LastClickedID: 31924
+      m_ExpandedIDs: 48f7feffe038ffff3469ffffa669ffff6c6fffffe876ffffac89ffff7a8affff76a0ffff68b4ffffa0b5ffff88b6ffff96b7ffff06b8ffff4eb8ffff94b8ffff78bcffff42ccffff40d9ffffe2e9ffff2eebffff6cebfffff2ebffff38ecffffceecffff84edffffceedffff0ceeffff54eeffff94eefffff0eeffff36efffff7eefffffc4efffffeef1ffff34f2ffff7cf2ffffc2f2ffff9ef4ffffe4f4ffff2cf5ffff72f5ffffb0f5ffffeef5ffff56f6ffff06fbfffff05f00002a6300003e630000b46f0000c66f0000d06f0000ea6f0000fc6f0000a8720000607300009673000054740000707400007a74000094740000a6740000e07b0000527c0000
+>>>>>>> parent of ddf051c... juego test
 =======
       m_SelectedIDs: b47c0000
       m_LastClickedID: 31924
@@ -1003,7 +1046,11 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastVerticalScrollValue: 61
+=======
+  m_LastVerticalScrollValue: 236.80002
+>>>>>>> parent of ddf051c... juego test
 =======
   m_LastVerticalScrollValue: 236.80002
 >>>>>>> parent of ddf051c... juego test
@@ -1132,6 +1179,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: f05d0000
@@ -1156,10 +1204,15 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000645a0000665a0000705a00007a5a000000ca9a3bffffff7f
 >>>>>>> Stashed changes
 =======
+=======
+>>>>>>> parent of ddf051c... juego test
     scrollPos: {x: 0, y: 63}
     m_SelectedIDs: 1e5d0000
     m_LastClickedID: 23838
     m_ExpandedIDs: 00000000865c0000905c00001e5d0000225d0000be5d00003e64000000ca9a3bffffff7f
+<<<<<<< HEAD
+>>>>>>> parent of ddf051c... juego test
+=======
 >>>>>>> parent of ddf051c... juego test
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1189,6 +1242,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     m_ExpandedIDs: 000000007a5d00007c5d0000
@@ -1198,6 +1252,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000645a0000665a0000
 >>>>>>> Stashed changes
+=======
+    m_ExpandedIDs: 00000000865c0000905c000000ca9a3bffffff7f
+>>>>>>> parent of ddf051c... juego test
 =======
     m_ExpandedIDs: 00000000865c0000905c000000ca9a3bffffff7f
 >>>>>>> parent of ddf051c... juego test
@@ -1229,11 +1286,15 @@ MonoBehaviour:
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_ExpandedInstanceIDs: c6230000e46f00008c8b0000
 =======
     m_ExpandedInstanceIDs: c6230000a4810000
 >>>>>>> Stashed changes
+=======
+    m_ExpandedInstanceIDs: c6230000e46f0000
+>>>>>>> parent of ddf051c... juego test
 =======
     m_ExpandedInstanceIDs: c6230000e46f0000
 >>>>>>> parent of ddf051c... juego test

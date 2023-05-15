@@ -253,6 +253,7 @@ MeshFilter:
   m_GameObject: {fileID: 40212989}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &63928202
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +518,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101619451}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of ddf051c... juego test
 =======
 >>>>>>> parent of ddf051c... juego test
 --- !u!1 &115248169
@@ -957,6 +960,7 @@ Transform:
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &602987353
 GameObject:
@@ -1187,6 +1191,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2315e404a8bc0fe44a66f14a8ba21f3a, type: 3}
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of ddf051c... juego test
 =======
 >>>>>>> parent of ddf051c... juego test
 --- !u!1 &615018466
@@ -2815,6 +2821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1075115716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3078,6 +3085,8 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1286170434223864740, guid: 59c06b642cd9c1449b0ace3aa231ffdc, type: 3}
   m_PrefabInstance: {fileID: 1095247177}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of ddf051c... juego test
 =======
 >>>>>>> parent of ddf051c... juego test
 --- !u!1 &1192490613
