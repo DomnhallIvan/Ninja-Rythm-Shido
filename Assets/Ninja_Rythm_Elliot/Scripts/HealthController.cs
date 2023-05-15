@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour
@@ -9,9 +8,6 @@ public class HealthController : MonoBehaviour
     public int playerHealth = 3;
     public GameObject canvasLose;
     public GameObject canvasScore;
-    public GameObject songmanager;
-    public AudioSource _audio;
-
     [SerializeField] private Image[] hearts;
     // Start is called before the first frame update
     void Start()
@@ -20,7 +16,7 @@ public class HealthController : MonoBehaviour
     }
     private void Update()
     {
-        GameOver();
+        
         UpdateHealth();
     }
     public void UpdateHealth()
@@ -42,29 +38,16 @@ public class HealthController : MonoBehaviour
     {
         if(playerHealth == 0)
         {
-            //Time.timeScale = 0;
-            _audio.Pause();
+            Time.timeScale = 0;
             canvasLose.SetActive(true);
-            //canvasScore.SetActive(false);
-            songmanager.SetActive(false);
+            canvasScore.SetActive(false);
         }
     }
 
     public void Continue()
     {
-        playerHealth = 3;
-        _audio.Play();
+        Time.timeScale = 1;
         canvasLose.SetActive(false);
-        //canvasScore.SetActive(true);
-        songmanager.SetActive(true);
-
-    }
-
-    public void Retry()
-    {
-        Time.timeScale = 1f;
-        string currentSceneName = SceneManager.GetActiveScene().name;
-
-        SceneManager.LoadScene(currentSceneName);
+        canvasScore.SetActive(true);
     }
 }
